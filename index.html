@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>malunéform</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <img src="moon.png" alt="logo" />
-    <p>
+    <p class="description">
       Avec près de 100 récompenses SNEP, Mal Luné est l’un des labels
       indépendants les plus certifiés en France.
     </p>
@@ -27,7 +34,12 @@
     <input type="text" id="nom" name="user_nom" placeholder="Ninho" />
 
     <label for="nom,prénom">nom,prénom</label>
-    <input type="text" id="nom" name="user_nom" placeholder="Dorian,Dupont" />
+    <input
+      type="text"
+      id="nomprénom"
+      name="nom,prénom"
+      placeholder="Dorian,Dupont"
+    />
 
     <label for="datedenaissance">date de naissance</label>
     <input
@@ -56,12 +68,90 @@
       placeholder="Parle-nous de ton morceau et
 tes inspirations..."
     ></textarea>
-    <label for="liens">liens</label>
+    <label for="lien">lien</label>
     <input
       type="url"
-      id="liens"
+      id="lien"
       name="user_liens"
-      placeholder="https://example.com"
+      placeholder="https://lienduson.com"
     />
+    <h2>2</h2>
+    <p>cover</p>
+    <img src="COVER UPLOAD.png" alt="uploadcover" />
+    <label for="titre1">titre</label>
+    <input type="text" id="titre1" name="titre1" placeholder="Métal froid" />
+    <label for="user_description2">description</label>
+    <textarea
+      name="user_description2"
+      id="user_description2"
+      placeholder="Parle-nous de ton morceau et
+tes inspirations..."
+    ></textarea>
+    <label for="lien">lien</label>
+    <input
+      type="url"
+      id="lien1"
+      name="lien1"
+      placeholder="https://lienduson.com"
+    />
+    <h2>3</h2>
+    <p>cover</p>
+    <img src="COVER UPLOAD.png" alt="uploadcover" />
+    <label for="titre3">titre</label>
+    <input
+      type="text"
+      id="titre3"
+      name="user_titre3"
+      placeholder="Métal froid"
+    />
+    <label for="description3">description</label>
+    <textarea
+      name="user_description3"
+      id="user_description3"
+      placeholder="Parle-nous de ton morceau et
+tes inspirations..."
+    ></textarea>
+    <label for="lien">lien</label>
+    <input
+      type="url"
+      id="lien3"
+      name="user_lien"
+      placeholder="https://lienduson.com"
+    />
+    <video src="Sokra - J'allais pas en cours (1).mp4"></video>
+    <h2>réseaux</h2>
+    <img src="spotify 1.png" alt="logospotify" />
+    <label for="spotify">Spotify</label>
+    <input
+      type="url"
+      id="spotify"
+      name="user_spotify"
+      placeholder="https://spotify.com"
+    />
+    <img src="instagram 1.png" alt="logoinstagram" />
+    <label for="instagram">Instagram</label>
+    <input
+      type="url"
+      id="instagram"
+      name="user_instagram"
+      placeholder="https://instagram.com"
+    />
+    <img src="youtube 1.png" alt="logoyoutube" />
+    <label for="youtube">YouTube</label>
+    <input
+      type="url"
+      id="youtube"
+      name="user_youtube"
+      placeholder="https://youtube.com"
+    />
+    <img src="web 1.png" alt="logoweb" />
+    <label for="web">Web</label>
+    <input
+      type="url"
+      id="web"
+      name="user_web"
+      placeholder="https://votre-site.com"
+    />
+    <button type="submit">Envoyer</button>
   </body>
 </html>

@@ -1,0 +1,88 @@
+body {
+  background-color: #1e1e1e;
+  color: #fe472e;
+  font-family: Anton;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 349px;
+  height: 247px;
+}
+h1 {
+  color: #fe472e;
+  font-family: Anton;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+h2 {
+  color: #fe472e;
+  font-family: Anton;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+input {
+  width: 143px;
+  height: 32px;
+  border-radius: 2px;
+  background: #fff;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #d2d1d1;
+  font-family: "Apple LiGothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+button {
+  width: 116px;
+  height: 38px;
+  border-radius: 5px;
+  border: 3px solid #fe472e;
+  background: #313131;
+  color: #fe472e;
+  font-family: Anton;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.description {
+  width: 151px;
+  height: 87px;
+  color: #979797;
+  font-family: Antic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+textarea {
+  width: 226px;
+  height: 77px;
+  border-radius: 2px;
+  background: #fff;
+  padding: 5px 10px;
+  font-size: 16px;
+}
