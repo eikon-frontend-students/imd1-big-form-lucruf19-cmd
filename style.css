@@ -120,7 +120,7 @@ textarea::placeholder {
 video {
   width: 100%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px; /* increased space below videos */
   opacity: 0.2;
 }
 
@@ -191,6 +191,7 @@ video {
   gap: 20px;
 }
 
+/* social row: icon aligned with input */
 .social-row {
   display: flex;
   align-items: center;
@@ -204,10 +205,33 @@ video {
 }
 
 .social-row input {
-  width: 380px;
+  width: 380px; /* wider input to sit next to icon */
   max-width: 100%;
 }
 
+/* file input UI for cover upload */
+.file-input {
+  display: none;
+}
+
+.cover-upload {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #222; /* fallback background */
+}
+
+.cover-upload img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* visually hidden helper for accessible labels */
 .sr-only {
   position: absolute !important;
   width: 1px !important;
@@ -220,19 +244,36 @@ video {
   border: 0 !important;
 }
 
+/* actions: align submit to the right and create spacing from réseaux */
 .form-actions {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  margin-top: 40px;
+  margin-top: 40px; /* increased space from réseaux */
 }
 
 .form-actions button {
   margin-right: 0;
 }
 
+/* responsive: reduce top space on very small screens */
 @media (max-width: 420px) {
   .form-actions {
     margin-top: 16px;
   }
+  video {
+    margin-bottom: 18px;
+  }
+}
+
+/* separator between project blocks */
+.project-block {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #fe472e;
+}
+.project-block:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
