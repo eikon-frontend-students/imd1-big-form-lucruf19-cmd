@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>malunéform</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="header">
+          <img class="lune" src="moon.png" alt="logo" />
+          <p class="description">
+            Avec près de 100 récompenses SNEP, Mal Luné est l’un des labels
+            indépendants les plus certifiés en France.
+          </p>
+        </div>
+
+        <h1>MONTEZ DANS LE BATEAU !</h1>
+        <p>
+          Bienvenue dans la famille. Ici, on croit aux artistes avant tout. Pas
+          besoin d’être déjà connu ou parfait, ce qu’on cherche c’est une vraie
+          personnalité, une dalle, un univers unique. Ce formulaire est là pour
+          apprendre à te connaître : ton parcours, ton style, tes ambitions et
+          ce qui te rend différent. Réponds simplement, sincèrement, avec tes
+          mots. Si ton énergie parle, la suite peut être lourde.
+        </p>
+        <video src="33z - MA PEINE (Clip Officiel) (1) copie.mp4"></video>
+        <div class="identité">
+          <h2>identité</h2>
+          <label for="pseudo">pseudo </label>
+          <input type="text" id="nom" name="user_nom" placeholder="Ninho" />
+
+          <label for="nom,prénom">nom,prénom</label>
+          <input
+            type="text"
+            id="nomprénom"
+            name="nom,prénom"
+            placeholder="Dorian,Dupont"
+          />
+
+          <label for="datedenaissance">date de naissance</label>
+          <input
+            type="text"
+            id="datedenaissance"
+            name="user_datedenaissance"
+            placeholder="2008"
+          />
+
+          <label for="biographie">biographie</label>
+          <textarea
+            name="user_bio"
+            id="user_bio"
+            placeholder="Parle-nous de ton parcours, ton univers, ton style musical et ce qui te représente en tant qu’artiste…"
+          ></textarea>
+        </div>
+        <video src="KERCHAK - HOODTRAP #4 (MATELAS) (1).mp4"></video>
+        <div class="projet1 project-block">
+          <h2>projet 1 (3)</h2>
+          <h3>cover</h3>
+          <label class="cover-upload" for="cover1">
+            <img src="COVER UPLOAD.png" alt="uploadcover" />
+          </label>
+          <input
+            type="file"
+            id="cover1"
+            name="cover1"
+            accept="image/*"
+            class="file-input"
+          />
+          <label for="titre">titre</label>
+          <input
+            type="text"
+            id="titre"
+            name="user_titre"
+            placeholder="Métal froid"
+          />
+
+          <label for="description">description</label>
+          <textarea
+            name="user_description"
+            id="user_description"
+            placeholder="Parle-nous de ton morceau et
+tes inspirations..."
+          ></textarea>
+          <label for="lien">lien</label>
+          <input
+            type="url"
+            id="lien"
+            name="user_liens"
+            placeholder="https://lienduson.com"
+          />
+        </div>
+        <div class="projet2 project-block">
+          <h2>2</h2>
+          <h3>cover</h3>
+          <label class="cover-upload" for="cover2">
+            <img src="COVER UPLOAD.png" alt="uploadcover" />
+          </label>
+          <input
+            type="file"
+            id="cover2"
+            name="cover2"
+            accept="image/*"
+            class="file-input"
+          />
+          <label for="titre1">titre</label>
+          <input
+            type="text"
+            id="titre1"
+            name="titre1"
+            placeholder="Métal froid"
+          />
+          <label for="user_description2">description</label>
+          <textarea
+            name="user_description2"
+            id="user_description2"
+            placeholder="Parle-nous de ton morceau et
+tes inspirations..."
+          ></textarea>
+          <label for="lien">lien</label>
+          <input
+            type="url"
+            id="lien1"
+            name="lien1"
+            placeholder="https://lienduson.com"
+          />
+        </div>
+        <div class="projet3 project-block">
+          <h2>3</h2>
+          <p>cover</p>
+          <label class="cover-upload" for="cover3">
+            <img src="COVER UPLOAD.png" alt="uploadcover" />
+          </label>
+          <input
+            type="file"
+            id="cover3"
+            name="cover3"
+            accept="image/*"
+            class="file-input"
+          />
+          <label for="titre3">titre</label>
+          <input
+            type="text"
+            id="titre3"
+            name="user_titre3"
+            placeholder="Métal froid"
+          />
+          <label for="description3">description</label>
+          <textarea
+            name="user_description3"
+            id="user_description3"
+            placeholder="Parle-nous de ton morceau et
+tes inspirations..."
+          ></textarea>
+          <label for="lien">lien</label>
+          <input
+            type="url"
+            id="lien3"
+            name="user_lien"
+            placeholder="https://lienduson.com"
+          />
+        </div>
+
+        <video src="Sokra - J'allais pas en cours (1).mp4"></video>
+
+        <h2>réseaux</h2>
+        <div class="réseaux">
+          <div class="social-row">
+            <img src="spotify 1.png" alt="logospotify" />
+            <label for="spotify" class="sr-only">Spotify</label>
+            <input
+              type="url"
+              id="spotify"
+              name="user_spotify"
+              placeholder="https://spotify.com"
+            />
+          </div>
+
+          <div class="social-row">
+            <img src="instagram 1.png" alt="logoinstagram" />
+            <label for="instagram" class="sr-only">Instagram</label>
+            <input
+              type="url"
+              id="instagram"
+              name="user_instagram"
+              placeholder="https://instagram.com"
+            />
+          </div>
+
+          <div class="social-row">
+            <img src="youtube 1.png" alt="logoyoutube" />
+            <label for="youtube" class="sr-only">YouTube</label>
+            <input
+              type="url"
+              id="youtube"
+              name="user_youtube"
+              placeholder="https://youtube.com"
+            />
+          </div>
+
+          <div class="social-row">
+            <img src="web 1.png" alt="logoweb" />
+            <label for="web" class="sr-only">Site web</label>
+            <input
+              type="url"
+              id="web"
+              name="user_web"
+              placeholder="https://votre-site.com"
+            />
+          </div>
+        </div>
+        <div class="form-actions">
+          <button type="submit">Envoyer</button>
+        </div>
+      </form>
+    </div>
+    <script>
+      // preview selected cover images into the matching label img
+      function previewCover(inputId, imgSelector) {
+        const input = document.getElementById(inputId);
+        input.addEventListener("change", function (e) {
+          const file = input.files && input.files[0];
+          if (!file) return;
+          const url = URL.createObjectURL(file);
+          const img = document.querySelector(imgSelector);
+          if (img) img.src = url;
+        });
+      }
+
+      previewCover("cover1", ".projet1 .cover-upload img");
+      previewCover("cover2", ".projet2 .cover-upload img");
+      previewCover("cover3", ".projet3 .cover-upload img");
+    </script>
+  </body>
+</html>
